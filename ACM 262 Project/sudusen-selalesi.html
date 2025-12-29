@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>YALOVA | Home</title>
+<title>YALOVA | Sudüşen Şelalesi</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <meta charset="UTF-8">
-<meta name="description" content="Website of about of Yalova">
-<meta name="keywords" content="YALOVA, Turkey, City, Tourism, Travel, Places">
+<meta name="description" content="Sudüşen Waterfall Yalova">
+<meta name="keywords" content="Yalova, Waterfall, Nature, Hiking, Sudüşen">
 <meta name="author" content="Yusuf Tepe">
 <style>
     body {
@@ -14,33 +14,24 @@
         background-color: #fff;
     }
 
-    /* --- HEADER (ÜST KISIM) STİLLERİ --- */
+    /* --- HEADER --- */
     header {
-       padding: 100px 20px; 
+        padding: 100px 20px; 
         color: white;
         text-align: center;
-
-        background-image: 
-            linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)),
-            url('balıkçılar.jpg'); 
-            
-        /* Resmi kutuya sığdır, kırp ama sünürme */
+        background-image: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('balıkçılar.jpg'); 
         background-size: cover; 
-        
-        /* Resmin ortasını odakla */
-        background-position: center;
-        
-        /* Resim tekrar etmesin */
+        background-position: center; 
         background-repeat: no-repeat;
     }
    
     header h1 {
-       margin: 0;
-        font-size: 3em; /* Başlığı fotoğrafta daha net görünsün diye büyüttüm */
+        margin: 0;
+        font-size: 3em;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     }
 
-    /* --- MENÜ STİLLERİ --- */
+    /* --- MENÜ --- */
     ul.topnav {
         list-style-type: none;
         margin: 0;
@@ -50,9 +41,7 @@
         border-bottom: 1px solid #e7e7e7;
     }
 
-    ul.topnav li {
-        float: left;
-    }
+    ul.topnav li { float: left; }
 
     ul.topnav li a, .dropbtn {
         display: block;
@@ -76,10 +65,8 @@
         font-weight: bold;
     }
 
-    /* --- DROPDOWN (Açılır Menü) --- */
-    li.dropdown {
-        display: block;
-    }
+    /* --- DROPDOWN --- */
+    li.dropdown { display: block; }
 
     .dropdown-content {
         display: none;
@@ -104,95 +91,9 @@
         color: #0056b3;
     }
 
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
+    .dropdown:hover .dropdown-content { display: block; }
 
-    /* --- MOBİL UYUMLULUK --- */
-    @media screen and (max-width: 600px){
-        img {width:100%;float:none;margin-left:auto;margin-right:auto;}
-        iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
-        video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
-        ul.topnav li {float: none;}
-        ul.topnav li a {text-align:center; border-bottom: 1px solid #ddd;}
-        ul.topnav li.dropdown div.dropdown-content {width:100%; position:relative;}
-        ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
-        
-        /* Mobilde Deprem butonu da alt alta gelsin ama rengini korusun */
-        ul.topnav li a.yas-buton {
-            margin-left: 0;
-            margin-top: 5px;
-        }
-    }
-
-    div.container {
-        width: 100%;
-        border: 1px solid #ddd;
-    }
-
-    .intro-text {
-        text-align: center;
-        max-width: 800px;
-        margin: 20px auto;
-        font-size: 1.1em;
-        color: #555;
-        line-height: 1.6;
-    }
-
-    .row {
-        display: flex;
-        flex-wrap: wrap; /* Mobilde alt alta geçsin */
-        justify-content: center;
-        gap: 20px;
-        margin-top: 40px;
-    }
-
-    .column {
-        flex: 30%; /* Üçte bir genişlik */
-        min-width: 300px; /* Çok küçülürse alt satıra geçsin */
-        background-color: #f8f9fa;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        text-align: center;
-    }
-
-    .column img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover; /* Resmi kutuya sığdırır, uzatmaz */
-        border-radius: 5px;
-        margin-bottom: 15px;
-    }
-
-    .column h3 {
-        color: #2c3e50;
-    }
-
-    .btn-oku {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #0056b3;
-        color: white;
-        text-decoration: none;
-        border-radius: 4px;
-        margin-top: 10px;
-    }
-
-    .btn-oku:hover {
-        background-color: #004494;
-    }
-
-    .video-section {
-        text-align: center;
-        margin-top: 60px;
-        margin-bottom: 40px;
-        padding: 20px;
-        background-color: #f1f1f1;
-        border-radius: 10px;
-    }
-
-    /* --- FOOTER (ALT KISIM) STİLLERİ --- */
+    /* --- FOOTER --- */
     footer {
         padding: 20px;
         color: white;
@@ -202,7 +103,7 @@
         margin-top: 20px;
     }
 
-    /* --- ÖZEL DEPREM BUTONU --- */
+    /* --- DEPREM BUTONU --- */
     @keyframes deprem-etkisi {
         0% { transform: translate(1px, 1px) rotate(0deg); }
         10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -230,6 +131,80 @@
         background-color: #222;
         color: white; 
         animation: deprem-etkisi 0.5s infinite;
+    }
+
+    /* --- SAYFA İÇERİK STİLLERİ --- */
+    .container {
+        width: 100%;
+        max-width: 1000px; /* Okumayı kolaylaştırmak için daralttım */
+        margin: 0 auto;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+
+    h1.page-title {
+        text-align: center;
+        color: #2c3e50;
+        font-size: 2.5em;
+        margin-bottom: 30px;
+    }
+
+    .content-image {
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+    }
+
+    .intro-text {
+        font-size: 1.2em;
+        color: #555;
+        line-height: 1.8;
+        margin-bottom: 30px;
+    }
+
+    .features-box {
+        background-color: #f8f9fa;
+        padding: 25px;
+        border-radius: 10px;
+        border-left: 5px solid #0056b3;
+    }
+
+    .features-box h3 {
+        margin-top: 0;
+        color: #0056b3;
+    }
+
+    .features-box ul {
+        list-style-type: none; /* Standart noktaları kaldırdım */
+        padding: 0;
+    }
+
+    .features-box ul li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 10px;
+        color: #444;
+        font-size: 1.1em;
+    }
+
+    /* Listenin başına tik işareti ekleyelim */
+    .features-box ul li::before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: #27ae60;
+        font-weight: bold;
+    }
+
+    /* --- MOBİL --- */
+    @media screen and (max-width: 600px){
+        ul.topnav li {float: none;}
+        ul.topnav li a {text-align:center; border-bottom: 1px solid #ddd;}
+        ul.topnav li.dropdown div.dropdown-content {width:100%; position:relative;}
+        ul.topnav li a.yas-buton { margin-left: 0; margin-top: 5px; }
     }
 
 </style>
@@ -263,45 +238,28 @@
         <li style="float:right"><a href="earthquake.html" class="yas-buton">⚠️ 1999 Earthquake</a></li>
     </ul>
 
-<article>
-        <div style="text-align: center;">
-            <h2 style="color: #2c3e50; font-size: 2.5em;">Welcome to Yalova</h2>
-            <hr style="width: 100px; border: 2px solid #0056b3; margin: auto;">
+    <article>
+        <div class="container">
+            
+            <h1 class="page-title">Sudüşen Waterfall</h1>
+            
+            <img src="sudusen.jpg" alt="Sudüşen Şelalesi Manzarası" class="content-image">
+
+            <p class="intro-text">
+                Sudüşen Waterfall (Sudüşen Şelalesi) is one of the most breathtaking natural wonders located near the village of Üvezpınar. 
+                Surrounded by a dense forest, the waterfall offers a cool and refreshing atmosphere, making it a favorite spot for visitors seeking an escape into nature.
+            </p>
+            
+            <div class="features-box">
+                <h3>Key Features</h3>
+                <ul>
+                    <li><strong>Spectacular Views:</strong> A perfect backdrop for photography and nature observation.</li>
+                    <li><strong>Natural Cooling:</strong> The mist from the waterfall provides a natural air-conditioning effect in summer.</li>
+                    <li><strong>Hiking and Picnic Areas:</strong> The surrounding trails are ideal for trekking lovers and families.</li>
+                </ul>
+            </div>
+
         </div>
-
-        <p class="intro-text">
-           Located just 45 minutes from Istanbul and famous for its nature and thermal springs,
-            Yalova is the shining star of the Marmara Region. 
-           This city, which Mustafa Kemal Atatürk called "My City," offers a treasure trove waiting 
-           to be discovered—from the Walking Mansion to Sudüşen Waterfall, and from healing thermal springs to unique beaches.
-        </p>
-
-        <div class="row">
-            <div class="column">
-                <img src="yuruyen-kosk.jpg" alt="Yürüyen Köşk"> <h3>History: The Walking Mansion</h3>
-                <p>Witness the unique story of the mansion whose foundation was shifted just to save a plane tree branch from being cut, and observe Atatürk's environmentalism firsthand.</p>
-                <a href="yuruyen-kosk.html" class="btn-oku">Read More &raquo;</a>
-            </div>
-
-            <div class="column">
-                <img src="termal-havuz.jpg" alt="Termal Kaplıcaları"> <h3>Healing: Thermal Springs</h3>
-                <p>Discover historical baths and hot springs nestled in nature, which have been offering healing since the Roman era.</p>
-                <a href="termal-kaplicaları.html" class="btn-oku">View Details &raquo;</a>
-            </div>
-
-            <div class="column">
-                <img src="yalova-sutlusu.jpg" alt="Yalova Lezzetleri"> <h3>Taste: What to Eat?</h3>
-                <p>The famous Yalova Sütlüsü (Milk Dessert), Termal Sarma, and fresh seafood... The best of Yalova’s cuisine is here.</p>
-                <a href="what-to-eat.html" class="btn-oku">Discover &raquo;</a>
-            </div>
-        </div>
-
-        <div class="video-section">
-            <h3>🎥 Yalova Promotional Film</h3>
-            <p>Take a short tour to feel the atmosphere of the city.</p>
-            <iframe width="669" height="361" src="https://www.youtube.com/embed/fpc5dpoZtL0" title="Unutulmaz Yalova - Tanıtım Filmi 2019 - 4K Türkçe (Şubat 2019)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-
     </article>
 
     <footer>

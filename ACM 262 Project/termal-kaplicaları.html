@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>YALOVA | Home</title>
+<title>YALOVA | Termal Kaplıcaları</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <meta charset="UTF-8">
-<meta name="description" content="Website of about of Yalova">
-<meta name="keywords" content="YALOVA, Turkey, City, Tourism, Travel, Places">
+<meta name="description" content="Thermal Springs of Yalova">
+<meta name="keywords" content="Yalova, Termal, Hot Springs, Spa, Health">
 <meta name="author" content="Yusuf Tepe">
 <style>
     body {
@@ -14,33 +14,24 @@
         background-color: #fff;
     }
 
-    /* --- HEADER (ÜST KISIM) STİLLERİ --- */
+    /* --- HEADER --- */
     header {
-       padding: 100px 20px; 
+        padding: 100px 20px; 
         color: white;
         text-align: center;
-
-        background-image: 
-            linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)),
-            url('balıkçılar.jpg'); 
-            
-        /* Resmi kutuya sığdır, kırp ama sünürme */
+        background-image: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('balıkçılar.jpg'); 
         background-size: cover; 
-        
-        /* Resmin ortasını odakla */
-        background-position: center;
-        
-        /* Resim tekrar etmesin */
+        background-position: center; 
         background-repeat: no-repeat;
     }
    
     header h1 {
-       margin: 0;
-        font-size: 3em; /* Başlığı fotoğrafta daha net görünsün diye büyüttüm */
+        margin: 0;
+        font-size: 3em;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     }
 
-    /* --- MENÜ STİLLERİ --- */
+    /* --- MENÜ --- */
     ul.topnav {
         list-style-type: none;
         margin: 0;
@@ -50,9 +41,7 @@
         border-bottom: 1px solid #e7e7e7;
     }
 
-    ul.topnav li {
-        float: left;
-    }
+    ul.topnav li { float: left; }
 
     ul.topnav li a, .dropbtn {
         display: block;
@@ -76,10 +65,8 @@
         font-weight: bold;
     }
 
-    /* --- DROPDOWN (Açılır Menü) --- */
-    li.dropdown {
-        display: block;
-    }
+    /* --- DROPDOWN --- */
+    li.dropdown { display: block; }
 
     .dropdown-content {
         display: none;
@@ -104,95 +91,9 @@
         color: #0056b3;
     }
 
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
+    .dropdown:hover .dropdown-content { display: block; }
 
-    /* --- MOBİL UYUMLULUK --- */
-    @media screen and (max-width: 600px){
-        img {width:100%;float:none;margin-left:auto;margin-right:auto;}
-        iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
-        video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
-        ul.topnav li {float: none;}
-        ul.topnav li a {text-align:center; border-bottom: 1px solid #ddd;}
-        ul.topnav li.dropdown div.dropdown-content {width:100%; position:relative;}
-        ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
-        
-        /* Mobilde Deprem butonu da alt alta gelsin ama rengini korusun */
-        ul.topnav li a.yas-buton {
-            margin-left: 0;
-            margin-top: 5px;
-        }
-    }
-
-    div.container {
-        width: 100%;
-        border: 1px solid #ddd;
-    }
-
-    .intro-text {
-        text-align: center;
-        max-width: 800px;
-        margin: 20px auto;
-        font-size: 1.1em;
-        color: #555;
-        line-height: 1.6;
-    }
-
-    .row {
-        display: flex;
-        flex-wrap: wrap; /* Mobilde alt alta geçsin */
-        justify-content: center;
-        gap: 20px;
-        margin-top: 40px;
-    }
-
-    .column {
-        flex: 30%; /* Üçte bir genişlik */
-        min-width: 300px; /* Çok küçülürse alt satıra geçsin */
-        background-color: #f8f9fa;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        text-align: center;
-    }
-
-    .column img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover; /* Resmi kutuya sığdırır, uzatmaz */
-        border-radius: 5px;
-        margin-bottom: 15px;
-    }
-
-    .column h3 {
-        color: #2c3e50;
-    }
-
-    .btn-oku {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #0056b3;
-        color: white;
-        text-decoration: none;
-        border-radius: 4px;
-        margin-top: 10px;
-    }
-
-    .btn-oku:hover {
-        background-color: #004494;
-    }
-
-    .video-section {
-        text-align: center;
-        margin-top: 60px;
-        margin-bottom: 40px;
-        padding: 20px;
-        background-color: #f1f1f1;
-        border-radius: 10px;
-    }
-
-    /* --- FOOTER (ALT KISIM) STİLLERİ --- */
+    /* --- FOOTER --- */
     footer {
         padding: 20px;
         color: white;
@@ -202,7 +103,7 @@
         margin-top: 20px;
     }
 
-    /* --- ÖZEL DEPREM BUTONU --- */
+    /* --- DEPREM BUTONU --- */
     @keyframes deprem-etkisi {
         0% { transform: translate(1px, 1px) rotate(0deg); }
         10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -230,6 +131,94 @@
         background-color: #222;
         color: white; 
         animation: deprem-etkisi 0.5s infinite;
+    }
+
+    /* --- GENEL SAYFA DÜZENİ --- */
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+
+    h1.page-title {
+        text-align: center;
+        color: #2c3e50;
+        font-size: 2.5em;
+        margin-bottom: 50px;
+    }
+
+    /* --- ZIGZAG (BİR SAĞ BİR SOL) TASARIM STİLLERİ --- */
+    .feature-section {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .feature-row {
+        display: flex;
+        align-items: center; /* Dikey olarak ortalar */
+        justify-content: space-between;
+        gap: 40px; /* Yazı ve resim arası boşluk */
+        margin-bottom: 60px; /* Her bloğun altındaki boşluk */
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px; /* Hafif yuvarlak köşeler */
+    }
+
+    /* .reverse sınıfı eklenirse yönü ters çevir (Resim Sola, Yazı Sağa) */
+    .feature-row.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .feature-text {
+        flex: 1; /* Genişliğin yarısını al */
+    }
+
+    .feature-text h3 {
+        color: #0056b3;
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    .feature-text p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .feature-img {
+        flex: 1; /* Genişliğin yarısını al */
+    }
+
+    .feature-img img {
+        width: 100%;
+        height: 300px; 
+        object-fit: cover; 
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        transition: transform 0.3s;
+    }
+
+    .feature-img img:hover {
+        transform: scale(1.02); /* Üzerine gelince hafif büyür */
+    }
+
+    /* MOBİL UYUMLULUK */
+    @media screen and (max-width: 768px) {
+        ul.topnav li {float: none;}
+        ul.topnav li a {text-align:center; border-bottom: 1px solid #ddd;}
+        ul.topnav li.dropdown div.dropdown-content {width:100%; position:relative;}
+        ul.topnav li a.yas-buton { margin-left: 0; margin-top: 5px; }
+
+        .feature-row, .feature-row.reverse {
+            flex-direction: column; /* Mobilde alt alta olsun */
+            gap: 20px;
+        }
+        
+        .feature-img img {
+            height: auto; /* Mobilde orijinal oranını korusun */
+        }
     }
 
 </style>
@@ -263,38 +252,49 @@
         <li style="float:right"><a href="earthquake.html" class="yas-buton">⚠️ 1999 Earthquake</a></li>
     </ul>
 
-<article>
-  <div class="container" style="padding: 40px 20px; border-top: 1px solid #ddd; margin-top: 40px;">
-    
-    <h1 style="text-align:center; color:#2c3e50; font-size: 2.5em;">Termal Kaplıcaları</h1>
-    
-    <div class="intro-text">
-        <p><strong>Yalova Termal</strong>, yemyeşil doğası ve binlerce yıllık şifalı sularıyla dünyaca ünlü bir sağlık merkezidir. Roma’dan Bizans’a, Osmanlı’dan Cumhuriyet’e kadar kralların ve imparatorların şifa aradığı bu topraklar, bugün bir "açık hava müzesi" niteliğindedir.</p>
-    </div>
+    <article>
+        <div class="container">
+            
+            <h1 class="page-title">Termal Kaplıcaları Bölümleri</h1>
 
-    <div style="max-width: 800px; margin: 0 auto; line-height: 1.6; color: #444; padding: 20px;">
-        <h2 style="color:#0056b3; border-bottom: 2px solid #eee; padding-bottom: 10px;">Tarihin Derinliklerinden Gelen Şifa</h2>
-        <p>Antik dönemde <strong>"Pythia"</strong> olarak bilinen Termal, yer altından çıkan sıcak suları ve buharıyla mistik bir güç merkezi olarak kabul edilirdi. Büyük Önder <strong>Mustafa Kemal Atatürk</strong>'ün <em>"Burası geleceğin su şehri olacaktır"</em> diyerek büyük önem verdiği ve sıkça ziyaret ettiği Termal, uluslararası alanda altın madalya sahibi tek Türk kaplıcasıdır.</p>
-        <p>Suların sıcaklığı kaynağından çıktığında yaklaşık 66 derecedir. Sülfatlı, kalsiyumlu ve florürlü zengin mineral yapısıyla hem banyo kürü hem de içme kürü olarak kullanılmaktadır.</p>
-    </div>
+            <div class="feature-section">
 
-    <h2 style="text-align:center; color:#2c3e50; margin-top:40px;">Öne Çıkan Bölümler</h2>
-    <div class="row">
-        <div class="column">
-            <h3 style="color:#0056b3;">Kurşunlu Banyo</h3>
-            <p>Bizans İmparatoru Jüstinyen tarafından yaptırılmıştır. Çatısının kurşunla kaplı olması nedeniyle bu adı almıştır. Tarihi kabartmaları ve mistik atmosferiyle en çok ilgi gören banyodur.</p>
-        </div>
-        <div class="column">
-            <h3 style="color:#0056b3;">Valide Banyo</h3>
-            <p>Osmanlı Sultanı Abdülmecid tarafından, annesi Bezm-i Alem Valide Sultan’ın tedavisi için restore ettirilmiştir. Osmanlı mimarisinin zarif özelliklerini yansıtır.</p>
-        </div>
-        <div class="column">
-            <h3 style="color:#0056b3;">Faydaları</h3>
-            <p>Termal suları; romatizmal hastalıklar, kireçlenme, cilt hastalıkları, sindirim sistemi ve metabolizma bozukluklarına iyi gelmesiyle bilinir.</p>
-        </div>
-    </div>
+                <div class="feature-row">
+                    <div class="feature-text">
+                        <h3>Kurşunlu Banyo</h3>
+                        <p>
+                            Bizans İmparatoru Jüstinyen tarafından yaptırılmıştır. Çatısının kurşunla kaplı olması 
+                            nedeniyle bu adı almıştır. Tarihi kabartmaları, mistik atmosferi ve dış cephesindeki 
+                            işlemeleriyle Termal'in en ikonik yapısıdır.
+                        </p>
+                        <p>
+                            Banyonun içerisinde sauna ve doğal buhar odaları bulunmaktadır.
+                        </p>
+                    </div>
+                    <div class="feature-img">
+                        <img src="termal1.jpg" alt="Kurşunlu Banyo">
+                    </div>
+                </div>
 
-</div>
+                <div class="feature-row reverse">
+                    <div class="feature-text">
+                        <h3>Valide Banyo</h3>
+                        <p>
+                            Osmanlı Sultanı Abdülmecid tarafından, annesi Bezm-i Alem Valide Sultan’ın romatizma 
+                            tedavisi için özel olarak restore ettirilmiştir.
+                        </p>
+                        <p>
+                            Osmanlı mimarisinin zarif özelliklerini yansıtan bu banyoda, su sıcaklığı ve buhar oranı 
+                            hassas bir şekilde ayarlanmıştır. Tarih ve şifanın buluştuğu eşsiz bir noktadır.
+                        </p>
+                    </div>
+                    <div class="feature-img">
+                        <img src="termal2.jpg" alt="Valide Banyo">
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </article>
 
     <footer>
