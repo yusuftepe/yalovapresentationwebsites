@@ -24,7 +24,7 @@ Bu proje, **Yalova**'nın tarihi, kültürel ve doğal güzelliklerini tanıtmak
 ---
 
 ## 📂 Project Structure (Proje Yapısı)
-
+```text
 /
 ├── home.html               # Homepage (Anasayfa)
 ├── history.html            # Historical timeline of Yalova (Tarihçe)
@@ -41,7 +41,7 @@ Bu proje, **Yalova**'nın tarihi, kültürel ve doğal güzelliklerini tanıtmak
 ├── contact.html            # Contact info and map (İletişim)
 ├── earthquake.html         # 1999 Earthquake Memorial (Deprem Özel Sayfası)
 └── [Images & Videos]       # Assets folder
-
+```
 © Credits & Legal Disclaimer (Telif Hakları ve Yasal Uyarı)
 This project is created for educational purposes. Below are the sources for the media used:
 
